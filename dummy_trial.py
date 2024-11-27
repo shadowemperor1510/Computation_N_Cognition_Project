@@ -5,8 +5,6 @@ import random as random
 
 def ez_diffusion_model_v2(accuracy, rt_mean, rt_variance, scaling_param=0.1):
     """
-    Calculate the drift rate (v) and boundary separation (a) for the EZ-diffusion model.
-
     Parameters:
     - accuracy: Probability of correct responses (P_c).
     - rt_mean: Mean reaction time for correct responses.
